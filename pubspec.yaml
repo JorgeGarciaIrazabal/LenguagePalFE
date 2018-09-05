@@ -1,0 +1,34 @@
+name: language_pal
+description: learn languages with your friends
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  scoped_model: ^0.3.0
+  http: '>=0.11.3+12'
+  shared_preferences: ^0.4.2
+  async_loader: ^0.1.0
+  intl: ^0.15.7
+  flutter_spinkit: "^2.1.0"
+  flutter_swiper: "^1.0.6"
+  audio_recorder: "^0.0.5"
+  simple_permissions: ^0.1.6
+  path_provider: ^0.4.1
+  audioplayer2: ^0.5.1
+  flutter_cache_manager: ^0.1.2
+  image_picker: ^0.4.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
